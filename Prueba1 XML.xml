@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+
+<mensaje>
+
+    <remitente>
+
+        <nombre>Mario Ortega</nombre>
+        <email>mario@gmail.com</email>
+    </remitente>
+
+
+    <destinatario>
+
+        <nombre>Víctor</nombre>
+        <email>victor@gmail.com</email>
+
+    </destinatario>
+
+
+    <asunto>
+
+        Marcas de lenguaje
+    </asunto>
+
+
+    <texto>
+
+        <parrafo>
+            Este es el lenguaje  de la clase (XML)
+        </parrafo>
+    </texto>
+
+
+</mensaje>
