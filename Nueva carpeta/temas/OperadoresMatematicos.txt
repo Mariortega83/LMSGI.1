@@ -1,0 +1,3 @@
+OPERADORES MATEMATICAS
+Los operadores aritméticos en Java son símbolos especiales que se utilizan para realizar operaciones matemáticas en variables numéricas. 
+Estos operadores permiten realizar cálculos como la suma, resta, multiplicación, división, etc.
