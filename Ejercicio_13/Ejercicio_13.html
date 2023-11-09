@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<div style="text-align:center; background-color: aquamarine; border: 2px solid rgb(0, 153, 255);"> <h1>KEBAB AB-ALDULAJIRA</h1></div>
+   
+   <div style="border: 2px solid rgb(0, 0, 0);">
+    <fieldset style="background-color: rgb(255, 224, 183);">
+        <legend>Datos perosnales y envío</legend>
+        <form>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos"><br>
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" id="domicilio" name="domicilio"><br>
+            <label for="poblacion">Población:</label>
+            <input type="text" id="poblacion" name="poblacion"><br>
+            <label for="n_telefono">Nº de Teléfono:</label>
+            <input type="text" id="n_telefono" name="n_telefono"><br>
+        </form>
+    </fieldset>
+
+    <fieldset style="background-color: rgb(255, 224, 183);">
+
+        <legend>Elija la opción de entrega</legend>
+        <form>
+
+
+            <input type="radio" id="recogida" name="opciones_entrega" value="Recogida">
+            <label for="recogida">Recogida en tienda</label><br>
+            <input type="radio" id="domicilio" name="opciones_entrega" value="Domicilio">
+            <label for="domicilio">Entrega a domicilio</label><br>
+        </form>
+
+    </fieldset>
+
+    <fieldset style="background-color: rgb(255, 224, 183);">
+        <legend>¿Quiere recibir nuevas ofertas?</legend>
+        <form>
+            <input type="checkbox" id="No" name="No" value="No">
+            <label for="No">No</label><br>
+            <input type="checkbox" id="Email" name="Email" value="Email">
+            <label for="Email">Por Email</label><br>
+            <input type="checkbox" id="SMS" name="SMS" value="SMS">
+            <label for="SMS">Por SMS</label>
+        </form>
+
+
+    </fieldset>
+    <fieldset style="background-color: rgb(255, 224, 183);">
+        <legend>Seleccione su menú</legend>
+        <form>
+            <label for="menu">Eliga su menú:</label>
+            <select id="menu" name="menu" size="3" multiple>
+                <option value="Kebab">Kebab</option>
+                <option value="Durum">Durum</option>
+                <option value="PizzaDeKebab">Pizza de Kebab</option>
+                <option value="PanPita">Pan Pita</option>
+            </select><br><br>
+        </form>
+
+
+    </fieldset>
+
+
+    <fieldset style="background-color: rgb(255, 224, 183);">
+        <legend>Personalización de menú</legend>
+        <form>
+            <label for="patatas">Patatas</label>
+            <select name="patatas" id="patatas">
+                <option value="pequeñas">Pequeñas</option>
+                <option value="medianas">Medianas</option>
+                <option value="grandes">Grandes</option>
+            </select>
+            <label for="bebida">Bebida</label>
+            <select name="bebida" id="bebida">
+                <option value="agua">Agua</option>
+                <option value="coca-cola">Coca-Cola</option>
+                <option value="fanta">Fanta</option>
+            </select><br><br>
+
+            <textarea name="message" rows="20" cols="50">
+            Escriba alguna sugerencia
+                </textarea>
+
+
+
+        </form>
+
+
+    </fieldset>
+
+</div>
+</body>
+
+</html>
