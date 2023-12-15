@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    
+}
+header {
+    
+    text-align: center;
+    background-color: rgb(252, 201, 201);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 9px;
+    font-size: 24px;
+    border: 1px solid black;
+    height: 70px;
+}
+#col1{
+    width: 80%;
+    background-color: aquamarine;
+    float: left;
+    height: 600px;
+    border: 1px solid black;
+    margin: 6px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding: 6px;
+    
+}
+#col2{
+    width: 18%;
+    background-color: bisque;
+    float: left;
+    height: 600px;
+    border: 1px solid black;
+    margin: 6px;
+    margin-right: 0px;
+    padding: 6px;
+    padding-right: 0px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    bottom: 0;
+    border: 1px solid black;
+    height: 230px;
+}
