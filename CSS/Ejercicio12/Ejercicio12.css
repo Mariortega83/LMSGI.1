@@ -1,0 +1,40 @@
+#capa1 {
+    width: 20%;
+    float: left;
+    background-color: aquamarine;
+
+}
+
+#capa2 {
+    float: right;
+    background-color: bisque;
+    height: 1000px;
+    width: 80%;
+    
+    overflow: auto;
+
+
+
+}
+
+#pie {
+
+    background-color: rgb(214, 67, 67);
+    text-align: center;
+    padding: 10px;
+}
+
+#cabecera {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
