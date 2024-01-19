@@ -1,0 +1,43 @@
+.flex-container{
+height: 400px;
+display: flex;
+align-content: flex-start;
+/* flex-direction: row;
+flex-wrap: wrap; */
+flex-flow: row wrap;
+justify-content: center;
+background-color: #404040;
+border-radius:10px;
+border: 20x solid yellow;
+font-size: 35px;
+
+}
+
+.flex-container > div {
+    
+padding: 10px;
+margin: 10px;
+border: 1px solid black;
+border-radius: 10px;
+background: #f18c55;
+
+}
+
+.one{
+    font-size: 50px;
+    height: 100px;
+    
+}
+.two{
+    height: 100px;
+    margin-left: auto;
+    
+}
+.three{
+    height: 100px;
+    
+}
+.four{
+    height: 100px;
+   
+}
