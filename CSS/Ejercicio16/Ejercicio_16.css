@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(255, 253, 231);
+    margin: 0;
+
+}
+h1{
+    color: rgb(194, 102, 102);
+}
+h2{
+    color: rgb(156, 156, 156);
+}
+
+#header1 {
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+
+#header2 {
+    float: right;
+    width: 50%;
+    text-align: center;
+
+}
+
+#section1 {
+   
+    float: left;
+    margin-top: 20px;
+    width: 50%;
+}
+
+#section2 {
+    
+    float: right;
+    margin-top: 20px;
+    width: 50%;
+}

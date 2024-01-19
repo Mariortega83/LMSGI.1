@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GASTROBAR ZAIDIN</title>
+    <link rel="stylesheet" href="Ejercicio_16.css">
+</head>
+
+<body>
+    <header id="header1">
+        <h1>
+            GASTROBAR ZAIDÍN
+        </h1>
+        <h2>
+            TELEBIRRA
+        </h2>
+    </header>
+
+    <header id="header2">
+        <h2>
+            Rellene este formulario para iniciar sesión
+        </h2>
+        <form>
+            <label for="usuario">Usuario</label>
+            <input type="text" id="usuario" name="usuario" value="">
+            <label for="contraseña">Contraseña</label>
+            <input type="text" id="contraseña" name="contraseña" value="">
+            <button type="button" onclick="alert('Iniciando sesión')">Enviar</button>
+        </form>
+    </header>
+    <div style="clear: both;"></div>
+    <section id="section1">
+        <form action="">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre</label><br>
+                <input type="text" id="nombre" name="nombre" value=""><br>
+                <label for="apellidos">Apellidos</label><br>
+                <input type="text" id="apellidos" name="apellidos" value=""><br>
+                <label for="direccion">Direccion</label><br>
+                <input type="text" id="direccion" name="direccion" value=""><br>
+                <label for="telefono">Teléfono</label><br>
+                <input type="text" id="telefono" name="telefono" value=""><br>
+                <label for="Localidad">Localidad</label><br>
+                <input type="text" id="Localidad" name="Localidad" value=""><br><br>
+                <input type="submit" value="Guardar">
+            </fieldset>
+        </form>
+        <form action="">
+            <fieldset>
+                <legend>Productos</legend>
+                <p>Pizzas</p>
+                <select id="productos" name="Productos">
+                    
+                    <option value="Pizza">Margarita</option>
+                    <option value="Carbonara">Carbonara</option>
+                    <option value="4 Formaggi">4 Formaggi</option>
+                    <option value="Barbacoa">Barbacoa</option>
+                    <input type="submit" value="Guardar">
+                </select>
+                <p>Bebidas</p>
+                <select id="productos" name="Productos">
+                    
+                    <option value="Pizza">Pizza</option>
+                    <option value="Bocadillos">Bocadillos</option>
+                    <option value="Raciones">Raciones</option>
+                    <option value="Bebidas">Bebidas</option>
+                    <input type="submit" value="Guardar">
+                </select>
+                
+            </fieldset>
+        </form>
+
+    </section>
+    <section id="section2">
+        <form action="">
+            <fieldset>
+                <legend>Alergias o especificaciones</legend>
+                <textarea name="message" rows="15" cols="30">
+                </textarea>
+            </fieldset>
+        </form>
+
+    </section>
+</body>
+
+</html>
