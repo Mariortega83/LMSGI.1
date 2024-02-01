@@ -10,9 +10,11 @@ header{
     text-align: right;
     background: black;
     font-size: 2em;
+    
 }
 section{
     display: flex;
+    
     
 }
 
