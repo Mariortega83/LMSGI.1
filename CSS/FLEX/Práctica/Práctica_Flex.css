@@ -1,7 +1,7 @@
 .flex-container{
 height: 400px;
 display: flex;
-align-content: flex-start;
+align-content: space-between;
 /* flex-direction: row;
 flex-wrap: wrap; */
 flex-flow: row wrap;
@@ -24,20 +24,27 @@ background: #f18c55;
 }
 
 .one{
-    font-size: 50px;
+
     height: 100px;
+    /*width: 300px;  */
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
     
 }
 .two{
     height: 100px;
     margin-left: auto;
+    width: 200px;
+    flex-grow: 1;
+    flex-shrink: 1
     
 }
 .three{
     height: 100px;
+    width: 200px;
+    flex-grow: 1;
+    flex-shrink: 1
     
 }
-.four{
-    height: 100px;
-   
-}
+
