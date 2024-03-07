@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+<xs:element name="Libro">
+    
+    <xs:complexType >
+      <xs:sequence>
+        <xs:element name="titulo" type="xs:string"/>
+        <xs:element name="contenido" type="contenidoType"/>
+        <xs:element name="copyright" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="seccionType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="apartados" type="xs:integer"/>
+        <xs:attribute name="dificil" type="xs:string"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="capituloType" mixed="true">
+    <xs:sequence>
+      <xs:element name="tema" type="xs:string"/>
+      <xs:element name="seccion" type="seccionType" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="materia" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="contenidoType">
+    <xs:sequence>
+      <xs:element name="capitulo" type="capituloType" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="separacion" type="xs:string" minOccurs="0"/>
+      <xs:element name="capitulo" type="capituloType" minOccurs="1" maxOccurs="unbounded"/>
+
+    </xs:sequence>
+  </xs:complexType>
+
+
+  
+
+</xs:schema>
