@@ -1,5 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <curriculum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="curriculum.xsd">
+    xsi:noNamespaceSchemaLocation="curriculum.xsd">
+    <datos_personales>
+
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <fecha_nacimiento>2024-12-12</fecha_nacimiento>
+        <lugar_nacimiento></lugar_nacimiento>
+        <nacionalidad></nacionalidad>
+        <n_identificacion tipo="nie"></n_identificacion>
+        <archivo_foto></archivo_foto>
+
+    </datos_personales>
+
+    <datos_contacto>
+
+        <tipo_via></tipo_via>
+        <nombre_via></nombre_via>
+        <numero>12</numero>
+        <escalera></escalera>
+        <piso></piso>
+        <puerta></puerta>
+        <codigo_postal>21</codigo_postal>
+        <pais></pais>
+        <email></email>
+        <telefono_movil>23</telefono_movil>
+        <telefono_fijo>0</telefono_fijo>
+
+    </datos_contacto>
+
+    <datos_opcionales>
+
+        <pagina_web></pagina_web>
+        <cuenta_red_social></cuenta_red_social>
+
+    </datos_opcionales>
+
+
+    <formacion_academica>
+
+        <nombre></nombre>
+        <centro></centro>
+        <fecha_inicio>2023-12-12</fecha_inicio>
+        <fecha_fin>2023-12-12</fecha_fin>
+
+    </formacion_academica>
+
+
+
+    <idiomas>
+
+        <idioma></idioma>
+        <nivel_comprension_oral>alto</nivel_comprension_oral>
+        <nivel_expresion_oral>medio</nivel_expresion_oral>
+        <nivel_comprension_escrita>alto</nivel_comprension_escrita>
+        <nivel_expresion_escrita>alto</nivel_expresion_escrita>
+        <nivel_titulo>A2</nivel_titulo>
+
+    </idiomas>
+
+
+    <experiencia_laboral>
+
+        <lugar></lugar> 
+        <puesto></puesto>
+        <fecha_inicio>2345-12-12</fecha_inicio>
+        <fecha_fin>1232-12-21</fecha_fin>
+        
+    </experiencia_laboral>
+
+
+    <competencias_socio-profesionales>
+
+        <competencia></competencia>
+        <nivel></nivel>
+
+    </competencias_socio-profesionales>
+
+    <datos_adiccionales>
+
+        <aficiones></aficiones>
+        <disponibilidad></disponibilidad>
+        <vehiculo_propio></vehiculo_propio>
+        <licencias></licencias>
+
+    </datos_adiccionales>
 
 </curriculum>
