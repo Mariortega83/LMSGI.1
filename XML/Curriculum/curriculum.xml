@@ -3,27 +3,27 @@
     xsi:noNamespaceSchemaLocation="curriculum.xsd">
     <datos_personales>
 
-        <nombre></nombre>
-        <apellidos></apellidos>
-        <fecha_nacimiento>2024-12-12</fecha_nacimiento>
-        <lugar_nacimiento></lugar_nacimiento>
-        <nacionalidad></nacionalidad>
-        <n_identificacion tipo="nie"></n_identificacion>
+        <nombre>Mario</nombre>
+        <apellidos>Ortega Pérez</apellidos>
+        <fecha_nacimiento>2005-05-04</fecha_nacimiento>
+        <lugar_nacimiento>Granada</lugar_nacimiento>
+        <nacionalidad>Español</nacionalidad>
+        <n_identificacion tipo="nie">93181244H</n_identificacion>
         <archivo_foto></archivo_foto>
 
     </datos_personales>
 
     <datos_contacto>
 
-        <tipo_via></tipo_via>
-        <nombre_via></nombre_via>
-        <numero>12</numero>
-        <escalera></escalera>
-        <piso></piso>
-        <puerta></puerta>
-        <codigo_postal>21</codigo_postal>
-        <pais></pais>
-        <email></email>
+        <tipo_via>Calle</tipo_via>
+        <nombre_via>Mirador de Montepinar</nombre_via>
+        <numero>1</numero>
+        <escalera>Derecha</escalera>
+        <piso>2</piso>
+        <puerta>B</puerta>
+        <codigo_postal>18007</codigo_postal>
+        <pais>España</pais>
+        <email>mortper0408@ieszaidinvergeles.org</email>
         <telefono_movil>23</telefono_movil>
         <telefono_fijo>0</telefono_fijo>
 
@@ -31,31 +31,73 @@
 
     <datos_opcionales>
 
-        <pagina_web></pagina_web>
-        <cuenta_red_social></cuenta_red_social>
+        <pagina_web>mariortegaperez83.github.io</pagina_web>
+        <cuenta_red_social>mario_ortega83</cuenta_red_social>
 
     </datos_opcionales>
 
 
     <formacion_academica>
 
-        <nombre></nombre>
-        <centro></centro>
+        <nombre>Titulado en Oxford</nombre>
+        <centro>Oxford</centro>
+        <fecha_inicio>2023-12-12</fecha_inicio>
+        <fecha_fin>2023-12-12</fecha_fin>
+
+    </formacion_academica>
+    
+    <formacion_academica>
+
+        <nombre>Titulado en Bachillerato Tecnológico</nombre>
+        <centro>Centro Salesiano San Juan Bosco</centro>
         <fecha_inicio>2023-12-12</fecha_inicio>
         <fecha_fin>2023-12-12</fecha_fin>
 
     </formacion_academica>
 
 
+    <formacion_academica>
+
+        <nombre>Técnico Superior de Desasrrollo de Aplicaciones Web</nombre>
+        <centro>IES Zaidin-Vergeles</centro>
+        <fecha_inicio>2023-09-15</fecha_inicio>
+        <fecha_fin>2025-06-16</fecha_fin>
+
+    </formacion_academica>
+
+
+
 
     <idiomas>
 
-        <idioma></idioma>
+        <idioma>Ingles</idioma>
         <nivel_comprension_oral>alto</nivel_comprension_oral>
         <nivel_expresion_oral>medio</nivel_expresion_oral>
         <nivel_comprension_escrita>alto</nivel_comprension_escrita>
         <nivel_expresion_escrita>alto</nivel_expresion_escrita>
         <nivel_titulo>A2</nivel_titulo>
+
+    </idiomas>
+
+    <idiomas>
+
+        <idioma>Frances</idioma>
+        <nivel_comprension_oral>alto</nivel_comprension_oral>
+        <nivel_expresion_oral>medio</nivel_expresion_oral>
+        <nivel_comprension_escrita>alto</nivel_comprension_escrita>
+        <nivel_expresion_escrita>alto</nivel_expresion_escrita>
+        <nivel_titulo>C1</nivel_titulo>
+
+    </idiomas>
+    
+    <idiomas>
+
+        <idioma>Alemán</idioma>
+        <nivel_comprension_oral>alto</nivel_comprension_oral>
+        <nivel_expresion_oral>medio</nivel_expresion_oral>
+        <nivel_comprension_escrita>alto</nivel_comprension_escrita>
+        <nivel_expresion_escrita>alto</nivel_expresion_escrita>
+        <nivel_titulo>B2</nivel_titulo>
 
     </idiomas>
 

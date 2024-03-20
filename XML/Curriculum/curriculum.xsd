@@ -6,7 +6,7 @@
     <xs:sequence>
       <xs:element name="datos_personales" type="T_Datos_Personales" />
       <xs:element name="datos_contacto" type="T_Datos_Contacto" />
-      <xs:element name="datos_opcionales" type="T_Datos_Opcionales" />
+      <xs:element name="datos_opcionales" type="T_Datos_Opcionales" minOccurs="0"/>
       <xs:element name="formacion_academica" type="T_Formacion_Academica" maxOccurs="unbounded" />
       <xs:element name="idiomas" type="T_Idiomas" maxOccurs="unbounded" />
       <xs:element name="experiencia_laboral" type="T_Experiencia_Laboral" maxOccurs="unbounded" />
@@ -29,13 +29,21 @@
     </xs:sequence>
   </xs:complexType>
 
+  <xs:simpleType name="Dni">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{8}[A-Z]" />
+    </xs:restriction>
+  </xs:simpleType>
+
+
   <xs:complexType name="T_identificacion">
     <xs:simpleContent>
-      <xs:extension base="xs:string">
+      <xs:extension base="Dni">
         <xs:attribute name="tipo" type="xs:string" use="required" />
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
+
 
   <xs:complexType name="T_Datos_Contacto">
     <xs:sequence>
