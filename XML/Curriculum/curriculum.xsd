@@ -29,6 +29,8 @@
     </xs:sequence>
   </xs:complexType>
 
+
+<!-- Restricción de los caracteres del DNI -->
   <xs:simpleType name="Dni">
     <xs:restriction base="xs:string">
       <xs:pattern value="[0-9]{8}[A-Z]" />
@@ -53,13 +55,35 @@
       <xs:element name="escalera" type="xs:string" minOccurs="0" />
       <xs:element name="piso" type="xs:string" minOccurs="0" />
       <xs:element name="puerta" type="xs:string" minOccurs="0" />
-      <xs:element name="codigo_postal" type="xs:integer" />
+      <xs:element name="codigo_postal" type="T_CP" />
       <xs:element name="pais" type="xs:string" />
-      <xs:element name="email" type="xs:string" />
-      <xs:element name="telefono_movil" type="xs:integer" />
-      <xs:element name="telefono_fijo" type="xs:integer" minOccurs="0" />
+      <xs:element name="email" type="T_Email" />
+      <xs:element name="telefono_movil" type="T_Telefono" />
+      <xs:element name="telefono_fijo" type="T_Telefono" minOccurs="0" />
     </xs:sequence>
   </xs:complexType>
+
+<!-- Restricción de los caracteres del Código Postal-->
+  <xs:simpleType name="T_CP">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{5}" />
+    </xs:restriction>
+  </xs:simpleType>
+
+<!-- Restricción de los caracteres del Email-->
+  <xs:simpleType name="T_Email">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" />
+    </xs:restriction>
+  </xs:simpleType>
+
+<!-- Restricción de los caracteres del Teléfono-->
+
+  <xs:simpleType name="T_Telefono">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{9}" />
+    </xs:restriction>
+  </xs:simpleType>
 
   <xs:complexType name="T_Datos_Opcionales">
     <xs:sequence>
@@ -90,16 +114,19 @@
     </xs:sequence>
   </xs:complexType>
 
-  <xs:simpleType name="valor_idioma">
 
+ <!-- Restricción de los niveles en cada aspecto del idioma -->
+  <xs:simpleType name="valor_idioma">
     <xs:restriction base="xs:string">
       <xs:enumeration value="bajo"/>
       <xs:enumeration value="medio"/>
       <xs:enumeration value="alto"/>
     </xs:restriction>
-
   </xs:simpleType>
 
+
+
+  <!-- Restricción de los niveles de los idiomas -->
   <xs:simpleType name="nivel_idioma">
     <xs:restriction base="xs:string">
       <xs:enumeration value="A1"/>
@@ -130,11 +157,29 @@
 
   <xs:complexType name="T_datos-add">
     <xs:sequence>
-      <xs:element name="aficiones" type="xs:string" minOccurs="0" />
+      <xs:element name="aficiones" type="xs:string" minOccurs="0" default="Ninguna"/>
       <xs:element name="disponibilidad" type="xs:string" minOccurs="0" />
       <xs:element name="vehiculo_propio" type="xs:string" minOccurs="0" />
-      <xs:element name="licencias" type="xs:string" minOccurs="0" />
+      <xs:element name="licencias" type="T_Licencias" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
+
+  <!-- Restricción de los niveles de las licencias de conducir -->
+  <xs:simpleType name="T_Licencias">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="AM"/>
+      <xs:enumeration value="A1"/>
+      <xs:enumeration value="A2"/>
+      <xs:enumeration value="A"/>
+      <xs:enumeration value="B"/>
+      <xs:enumeration value="B+E"/>
+      <xs:enumeration value="C1"/>
+      <xs:enumeration value="C"/>
+      <xs:enumeration value="D1"/>
+      <xs:enumeration value="D1+E"/>
+      <xs:enumeration value="D"/>
+      <xs:enumeration value="BTP"/>
+    </xs:restriction>
+  </xs:simpleType>
 
 </xs:schema>

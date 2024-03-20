@@ -24,8 +24,8 @@
         <codigo_postal>18007</codigo_postal>
         <pais>España</pais>
         <email>mortper0408@ieszaidinvergeles.org</email>
-        <telefono_movil>23</telefono_movil>
-        <telefono_fijo>0</telefono_fijo>
+        <telefono_movil>234567890</telefono_movil>
+        <telefono_fijo>123456789</telefono_fijo>
 
     </datos_contacto>
 
@@ -114,17 +114,20 @@
 
     <competencias_socio-profesionales>
 
-        <competencia></competencia>
-        <nivel></nivel>
+        <competencia>Trabajo en equipo</competencia>
+        <nivel>Alto</nivel>
 
     </competencias_socio-profesionales>
 
     <datos_adiccionales>
 
         <aficiones></aficiones>
-        <disponibilidad></disponibilidad>
-        <vehiculo_propio></vehiculo_propio>
-        <licencias></licencias>
+        <disponibilidad>Total</disponibilidad>
+        <vehiculo_propio>Turismo</vehiculo_propio>
+        <licencias>A</licencias>
+        <licencias>A</licencias>
+        <licencias>A</licencias>
+        <licencias>A</licencias>
 
     </datos_adiccionales>
 
